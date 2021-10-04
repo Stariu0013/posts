@@ -1,0 +1,22 @@
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 2px solid teal;
+
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.post_btns {
+    display: flex;
+}
+
+.post_btns button {
+    padding: 5px 15px;
+    background: transparent;
+
+    border: 2px solid teal;
+    color: teal;
+}

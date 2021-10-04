@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App {
+    width: 800px;
+}
+
+.loaderBlock {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.page__wrapper {
+    margin-top: 30px;
+}
+
+.page {
+    border: 2px solid teal;
+
+    padding: 12px;
+    margin-right: 1px;
+
+    cursor: pointer;
+}
+
+.page__current {
+    border: 2px solid #e24145;
+}
+
+.navbar {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: lightgray;
+}
+
+.navbar__links {
+    margin-left: auto;
+}
